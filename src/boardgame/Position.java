@@ -9,9 +9,9 @@ public class Position {
 		// TODO Auto-generated constructor stub
 	}
 
-	public Position(int column, int row) {
-		this.column = column;
+	public Position(int row, int column) {
 		this.row = row;
+		this.column = column;
 	}
 
 	public int getColumn() {
